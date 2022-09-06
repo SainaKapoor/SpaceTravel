@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js">
+ </script>
+ <script src="feedback.js"> </script> 
+<link rel="stylesheet" href="feedback.css">
+<div class="links">
+<a style="color:white;" href="login.html"> <b>Login page</b> </a>&nbsp &nbsp &nbsp &nbsp 
+<a style="color:white;" href="homePage.html"><b> Home page </b> </a>	&nbsp &nbsp &nbsp &nbsp
+<a style="color:white;" href="info.html"> <b> Information page</b> </a> &nbsp &nbsp &nbsp &nbsp
+  <a style="color:white;" href="aboutUs.html"> <b> About Us</b> </a>
+  </div>
+      
+
+</head>
+<body>	
+ 
+	 <h1 align="center" style="color:#FFFFFF";>FEEDBACK PAGE</h1>
+	 <br/>
+	 <h2 align="center" style="color:#FFFFFF";>WE VALUE YOUR REVIEWS.<h2/>
+	 <h2 align="center" style="color:#FFFFFF";>WE LOVE IMPROVEMENTS.<h2/>
+	 <br/>
+    
+	 <div class="container">
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <h2 align="center" style="color:#FFFFFF";>Let's Launch</h2>
+	 <form action="file:///C:/Users/Saina%20Kapoor/Desktop/submit.html" name="feedback">
+	 <label for="firstname">&nbsp First Name: &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+	 <input type="text" name="firstname" id="firstname" placeholder="Your first name"/>
+	 <label class="error" for="firstname" id="firstname_error">----- *This field is required.</label>
+	 <label class="error" for="firstname" id="firstnameIncorrect_error"> ----- *Your First name contain a number</label>
+	 <br>
+	 <br>
+	 <label for="lastname">&nbsp Last Name: &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+	 <input type="text" name="lastname" id="lastname" placeholder="Your last name" />
+	 <label class="error" for="lastname" id="lastname_error">----- *This field is required.</label>
+	 <label class="error" for="lastname" id="lastnameIncorrect_error">----- *Your Last name contain a number</label>
+	 <br>
+	 <br>
+	 <label for="email">&nbsp E-mail: &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+	 <input type="email" name="email" id="email" placeholder="Your email id"/>
+	 <label class="error" for="email" id="email_error">----- *This field is required.</label>
+	 <br>
+	 <br>
+	 <label for="ticket">&nbsp Ticket Number: &nbsp</label>
+	 <input type="text" name="ticket" id="ticket" placeholder="Your ticket number"/>
+	 <label class="error" for="ticket" id="ticket_error">------- *This field is required.</label>
+	 <br/>
+	 <br/>
+	 <label for="question1">&nbsp Which rocket do you want to review?</label>
+	 <br/>
+	 <input class="rocket1" id="rocket" type="radio" name="rocket"> Eagle 
+	 <input class="rocket2" id="rocket" type="radio" name="rocket"> Phoenix
+	 <input class="rocket3" id="rocket" type="radio" name="rocket"> Dragon
+     <br/>
+	 <br>
+	 <label for="question2">&nbsp Which planet was it?</label>
+	 <br/>
+	 <input class="planet1" id="planet" type="radio" name="planet"/> Moon
+	 <input class="planet2" id="planet" type="radio" name="planet"/>  Mars
+	 <br>
+	  <br/>
+	 <label for="question3">&nbsp How was the journey/experience?</label>
+	 <br>
+	 <textarea rows="5" cols="45">
+     </textarea>
+	 <br>
+	 <label for="question4">&nbsp What else we can improve?</label>
+	 <br>
+	 <textarea rows="5" cols="45">
+     </textarea>
+     <br>
+	 <label for="question3">&nbsp Any igniting tip?</label>
+	 <br>
+	 <textarea rows="1" cols="45">
+     </textarea>
+     <br>
+	 <br>
+	 <label for="question3">&nbsp How would you rate us?</label>
+	 <br>
+     <input class="star star-5" id="star5" type="radio" name="star"/>1
+	 <input class="star star-4" id="star5" type="radio" name="star"/>2
+	 <input class="star star-3" id="star5" type="radio" name="star"/>3
+	 <input class="star star-2" id="star5" type="radio" name="star"/>4
+	 <input class="star star-1" id="star5" type="radio" name="star"/>5
+     <br>
+	 <br>
+	 <button class="button" type="submit">Submit</button>
+	  
+
+  </form>
+	</div>
+
+	
+	
+</body>
+</html>

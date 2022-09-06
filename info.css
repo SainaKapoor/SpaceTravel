@@ -1,0 +1,48 @@
+body
+{
+	 background-image : url("life.jpg") ;
+	 background-size: cover;
+	 
+	  
+	  
+	   
+}
+h1{
+
+	color:#FFFFFF;
+	font-size: 50px;
+}
+
+
+#panel,
+ #flip {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  border: solid 1px #c3c3c3;
+  color: white;
+  width: 36%;
+ 
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+
+}
+
+#panel1,
+ #flip1 {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  border: solid 1px #c3c3c3;
+  color: white;
+  width: 36%;
+ 
+}
+#panel1 {
+  padding: 50px;
+  display: none;
+
+}

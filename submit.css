@@ -1,0 +1,38 @@
+html{
+	 background: url(life.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+    left: 15%;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+	font-size: 80px;
+	
+	 font-style: italic;
+}
+a{
+	font-size: 25px;
+}
+	
+
+int main(int argc, char * argv[],char * envp[])
+{
+	for(int i=1;i<argc;i++){
+	printf("Home Directory: %s\n", getpwnam(argv[i])->pw_dir);
+	printf("User ID: %d Group id: %d\n",getpwnam(argv[i])->pw_uid,getpwnam(argv[i])->pw_gid);
+	printf("main group name: %s\n",getpwnam(argv[i])->pw_gecos);
+	printf(stdout,"User Information: %s\n",pwd->pw_gecos);
+
+	endgrent();  
+   }
+  return 0;
+  }
