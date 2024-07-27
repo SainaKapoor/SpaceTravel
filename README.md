@@ -11,17 +11,17 @@ SpaceTravel is a SpaceX-inspired website designed for space travel enthusiasts. 
 **Prototyping and Design:** Wireframes and prototypes designed with Figma to visualize and plan the project effectively.
 
 # Technologies Used
--HTML
+- HTML
 
--CSS
+- CSS
 
--JavaScript
+- JavaScript
 
--SQL
+- SQL
 
--Bootstrap
+- Bootstrap
 
--Figma
+- Figma
 
 # Installation
 To run this project locally, follow these steps:
